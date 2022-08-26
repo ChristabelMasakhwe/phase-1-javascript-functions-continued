@@ -12,7 +12,6 @@ describe("index.js", () => {
       expect(saturdayFun("bathe my dog")).to.equal("This Saturday, I want to bathe my dog!")
     })
   })
-
   describe("defines mondayWork function expression as specified", function() {
     it("function exists", function() {
       expect(mondayWork).to.exist
